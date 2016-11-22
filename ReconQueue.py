@@ -255,8 +255,8 @@ def reconStartPyHST(Path, rAxisNew, sSliceNew, eSliceNew, ccdFilterNew, ccdFilte
 
 
 	sftpURL   =  '10.2.105.181'
-	sftpUser  =  'userimx'
-	sftpPass  =  'syncro!14'
+	sftpUser  =  '******'
+	sftpPass  =  '******'
 
 
 	ssh = paramiko.SSHClient()
@@ -418,8 +418,8 @@ def reconStartPyRaft(Path, sSliceNew, eSliceNew, Regularization, Composition, Th
 
 
 	sftpURL   =  '10.2.105.44'
-	sftpUser  =  'userimx'
-	sftpPass  =  'syncro!14'
+	sftpUser  =  '********'
+	sftpPass  =  '********'
 
 
 	ssh = paramiko.SSHClient()
@@ -585,8 +585,8 @@ def reconStartPyRaft(Path, sSliceNew, eSliceNew, Regularization, Composition, Th
 
 ### SEND EMAIL ###
 def sendEmail(Samples, Email):
-	gmail_user = 'imxbeamline@gmail.com'
-	gmail_pwd = 'syncro!14'
+	gmail_user = '****************'
+	gmail_pwd = '*****************'
 	FROM = 'IMX Beamline'
 	recipient = Email
 	TO = recipient if type(recipient) is list else [recipient]
